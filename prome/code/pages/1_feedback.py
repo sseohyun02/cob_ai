@@ -20,7 +20,7 @@ with st.sidebar:
             st.info("계속하기 위해 API key를 입력하여 주십시오")
             st.stop()
         my_api_key = openai_api_key
-        if openai_api_key != "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":
+        if openai_api_key != "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":
             st.info("올바르지 않은 API key 입니다. 유효한 API key를 .")
 
 #opanai 불러오기
@@ -65,7 +65,7 @@ example = {
     'company_position': '과장',
     'company_sit': '과장님이 20년도 서류 처리를 부탁하셨는데 나는 21년 입사라 관련 내용을 몰라 거절해야하는데 무책임해보일까봐 걱정이 되는 상황',
     'company_desc': '제가 21년에 입사를 하여서 어떻게 업무 처리를 해야할지 모르겠습니다',
-    'keywords': ['죄송', '감사', '실례']
+    'keywords': ['죄송', '감사', '']
 }
 prompt_template = """
 입력받은 청자에게 메세지를 보내기 위한 텍스트를 {num}개 생성해주세요.

@@ -3,7 +3,7 @@ import streamlit as st
 from openai import OpenAI
 
 client = OpenAI(
-  api_key ='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',
+  api_key ='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',
 )
 
 ## 답변 요청 함수
